@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audry Nabila | Portfolio</title>
+  <meta name="description" content="Portfolio Website of Audry Nabila - Backend Engineer & Data Analyst Enthusiast">
+  <link rel="icon" type="image/x-icon" href="https://github.com/audrynabila28.png">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Decorative Orbs -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="container">
+      <a href="#home" class="logo">Audry<span>Nabila</span></a>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero container">
+    <div class="hero-content">
+      <span class="greeting">Welcome to my space 👋</span>
+      <h1>I'm Audry Nabila</h1>
+      <h2>I specialize in <span class="typewriter" data-words='["Backend Engineering", "Data Analysis", "Database Design", "Exploratory Data Analysis"]'></span></h2>
+      <p class="hero-desc">Membangun arsitektur server yang aman, RESTful API yang tangguh, serta mengubah data mentah menjadi wawasan bisnis (insights) yang bernilai tinggi.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">Lihat Project <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+      </div>
+    </div>
+    <div class="hero-avatar-wrapper">
+      <div class="avatar-card">
+        <img src="https://github.com/audrynabila28.png" alt="Audry Nabila Avatar" class="avatar-img">
+        <div class="avatar-info">
+          <h3>Audry Nabila</h3>
+          <p>Jakarta, Indonesia</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about container">
+    <div class="section-header">
+      <span class="section-tag">Tentang Saya</span>
+      <h2>Mengenal Saya Lebih Dekat</h2>
+      <div class="heading-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>Halo! Saya adalah seorang pengembang piranti lunak sisi belakang (**Backend Developer**) yang juga menaruh ketertarikan besar pada pengolahan data (**Data Analyst**). Menjembatani dua bidang ini memungkinkan saya untuk membangun aplikasi web fungsional sekaligus menganalisis performa data secara mendalam.</p>
+        <p>Saya menyukai tantangan rekayasa perangkat lunak, mulai dari merancang skema database ternormalisasi, mengamankan endpoint API menggunakan JWT, hingga melakukan **Exploratory Data Analysis (EDA)** untuk menemukan pola-pola tersembunyi dalam dataset kompleks.</p>
+        <div class="about-stats">
+          <div class="stat-card">
+            <h3>2+</h3>
+            <p>Proyek Skala Nyata</p>
+          </div>
+          <div class="stat-card">
+            <h3>4+</h3>
+            <p>Bahasa Pemrograman</p>
+          </div>
+          <div class="stat-card">
+            <h3>99%</h3>
+            <p>Akurasi Validasi Data</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-interests">
+        <h3>Fokus & Minat Karir</h3>
+        <ul class="interest-list">
+          <li>
+            <i class="fa-solid fa-server"></i>
+            <div>
+              <h4>Backend Development</h4>
+              <p>Membangun sistem modular, cepat, dan aman menggunakan Laravel (PHP) dan Express.js (Node.js).</p>
+            </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-chart-line"></i>
+            <div>
+              <h4>Data Analysis & Insight</h4>
+              <p>Menganalisis data, pembersihan data (*data wrangling*), visualisasi interaktif, dan EDA menggunakan Python.</p>
+            </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-database"></i>
+            <div>
+              <h4>Database Architecture</h4>
+              <p>Mengelola database relasional (PostgreSQL, MySQL, SQLite) dengan integrasi Sequelize ORM.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills container">
+    <div class="section-header">
+      <span class="section-tag">Keahlian</span>
+      <h2>Komponen Tech Stack Saya</h2>
+      <div class="heading-line"></div>
+    </div>
+    <div class="skills-grid">
+      <!-- Backend Skills -->
+      <div class="skill-category-card">
+        <div class="category-header">
+          <i class="fa-solid fa-gears"></i>
+          <h3>Backend Engineering</h3>
+        </div>
+        <div class="skill-items">
+          <div class="skill-badge"><i class="fa-brands fa-laravel"></i> Laravel</div>
+          <div class="skill-badge"><i class="fa-brands fa-node-js"></i> Node.js</div>
+          <div class="skill-badge">Express.js</div>
+          <div class="skill-badge"><i class="fa-brands fa-php"></i> PHP</div>
+          <div class="skill-badge">Sequelize ORM</div>
+          <div class="skill-badge"><i class="fa-solid fa-key"></i> JWT & Auth Security</div>
+          <div class="skill-badge"><i class="fa-solid fa-network-wired"></i> RESTful API</div>
+        </div>
+      </div>
+
+      <!-- Data Analyst Skills -->
+      <div class="skill-category-card">
+        <div class="category-header">
+          <i class="fa-solid fa-magnifying-glass-chart"></i>
+          <h3>Data Analysis</h3>
+        </div>
+        <div class="skill-items">
+          <div class="skill-badge"><i class="fa-brands fa-python"></i> Python (Pandas/NumPy)</div>
+          <div class="skill-badge"><i class="fa-solid fa-chart-pie"></i> EDA (Exploratory Data Analysis)</div>
+          <div class="skill-badge"><i class="fa-solid fa-database"></i> SQL Querying</div>
+          <div class="skill-badge"><i class="fa-solid fa-table"></i> Data Wrangling</div>
+          <div class="skill-badge"><i class="fa-solid fa-chart-area"></i> Matplotlib & Seaborn</div>
+          <div class="skill-badge">Superstore Analysis</div>
+        </div>
+      </div>
+
+      <!-- Tools & Infrastructure -->
+      <div class="skill-category-card">
+        <div class="category-header">
+          <i class="fa-solid fa-screwdriver-wrench"></i>
+          <h3>Tools & Database</h3>
+        </div>
+        <div class="skill-items">
+          <div class="skill-badge"><i class="fa-brands fa-git-alt"></i> Git & GitHub</div>
+          <div class="skill-badge">PostgreSQL (Neon)</div>
+          <div class="skill-badge">MySQL / SQLite</div>
+          <div class="skill-badge">Postman API Client</div>
+          <div class="skill-badge">Vercel Hosting</div>
+          <div class="skill-badge">Jupyter Notebook</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects container">
+    <div class="section-header">
+      <span class="section-tag">Portofolio</span>
+      <h2>Proyek Pilihan Terbaru</h2>
+      <div class="heading-line"></div>
+    </div>
+    <div class="projects-grid">
+      <!-- Project 1: Humaira Salon -->
+      <div class="project-card">
+        <div class="project-badge">Real-World Project</div>
+        <div class="project-content">
+          <div class="project-meta">
+            <span class="proj-category"><i class="fa-solid fa-code"></i> Full-Stack</span>
+            <span class="proj-tech">Node.js • Express • Postgres</span>
+          </div>
+          <h3>Humaira Salon & Wedding Reservasi</h3>
+          <p>Sistem informasi reservasi layanan kecantikan modular. Melindungi transaksi dari manipulasi harga sisi klien, mendukung otorisasi admin-pelanggan via JWT, dan otomatis mengirim bukti pesan ke WhatsApp pelanggan dari server.</p>
+          <div class="project-links">
+            <a href="https://github.com/audrynabila28/humaira-salon-booking-system" target="_blank" class="proj-btn"><i class="fa-brands fa-github"></i> Repository</a>
+            <a href="https://humaira-salon-booking-system.vercel.app/" target="_blank" class="proj-btn live"><i class="fa-solid fa-globe"></i> Live Web</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: Asahlagi -->
+      <div class="project-card">
+        <div class="project-badge">Capstone Project</div>
+        <div class="project-content">
+          <div class="project-meta">
+            <span class="proj-category"><i class="fa-solid fa-gears"></i> Quality Lead (NLP & ML)</span>
+            <span class="proj-tech">Python • NLP • API Services</span>
+          </div>
+          <h3>Asahlagi - AI Quiz Generator (Quality Optimization)</h3>
+          <p>Bertanggung jawab meningkatkan kualitas kuis otomatis. Mengoptimalkan logika distraktor (same-POS, length-similar, embedding-based), menyempurnakan ekstraktor dokumen (multikolom PDF & URL bypass), serta merancang deduplikasi pertanyaan dengan similarity check.</p>
+          <div class="project-links">
+            <span class="proj-btn-disabled"><i class="fa-solid fa-lock"></i> Private Repository</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3: EDA Superstore -->
+      <div class="project-card">
+        <div class="project-badge">Data Analysis Case Study</div>
+        <div class="project-content">
+          <div class="project-meta">
+            <span class="proj-category"><i class="fa-solid fa-chart-line"></i> Data Analyst</span>
+            <span class="proj-tech">Python • Pandas • Seaborn</span>
+          </div>
+          <h3>Exploratory Data Analysis (EDA) Superstore</h3>
+          <p>Melakukan analisis data penjualan ritel global (Superstore). Mengidentifikasi korelasi antara diskon dan profitabilitas, membersihkan data yang hilang, mendeteksi pencilan (outliers), dan membuat rekomendasi strategi penjualan berbasis visualisasi data.</p>
+          <div class="project-links">
+            <span class="proj-btn-disabled"><i class="fa-solid fa-chart-bar"></i> Jupyter Notebook</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact container">
+    <div class="section-header">
+      <span class="section-tag">Hubungi</span>
+      <h2>Mari Berkolaborasi!</h2>
+      <div class="heading-line"></div>
+    </div>
+    <div class="contact-card">
+      <div class="contact-info-block">
+        <h3>Hubungkan Dengan Saya</h3>
+        <p>Tertarik untuk bekerja sama, mendiskusikan peluang proyek backend, atau analisis bisnis data? Jangan ragu untuk menyapa!</p>
+        <div class="contact-details">
+          <div class="c-detail">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>lenihumaira15@gmail.com</p>
+            </div>
+          </div>
+          <div class="c-detail">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div>
+              <h4>WhatsApp</h4>
+              <p>+62 896-4694-6880</p>
+            </div>
+          </div>
+          <div class="c-detail">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <h4>Lokasi</h4>
+              <p>Jakarta, Indonesia</p>
+            </div>
+          </div>
+        </div>
+        <div class="social-icons">
+          <a href="https://github.com/audrynabila28" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://instagram.com/humairasalon_" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="contact-action">
+        <h3>Kirim Pesan Instan</h3>
+        <p>Anda akan diarahkan langsung ke WhatsApp pribadi saya untuk tanggapan yang lebih cepat.</p>
+        <button id="sendWaBtn" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Chat WhatsApp Sekarang</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Audry Nabila. Made with <i class="fa-solid fa-heart" style="color: #ff4a5a;"></i> and Code.</p>
+    </div>
+  </footer>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
