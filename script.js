@@ -118,8 +118,8 @@ if (menuToggle && navLinks) {
 const sendWaBtn = document.getElementById('sendWaBtn');
 if (sendWaBtn) {
   sendWaBtn.addEventListener('click', () => {
-    const phoneNumber = '6289646946880'; // Nomor WA Audry Nabila
-    const message = 'Halo Audry Nabila, saya tertarik melihat portofolio Anda dan ingin berdiskusi mengenai proyek kolaborasi.';
+    const phoneNumber = '6289695858900'; // Nomor WA Audry Nabila Anastasya
+    const message = 'Halo Audry Nabila Anastasya, saya tertarik melihat portofolio Anda dan ingin berdiskusi mengenai proyek kolaborasi.';
     const waUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(waUrl, '_blank');
   });
